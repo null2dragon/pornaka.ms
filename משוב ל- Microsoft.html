@@ -1,0 +1,1512 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://feedback.smartscreen.microsoft.com/feedback.aspx -->
+<html lang="en" style="" class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths picture eventlistener"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>משוב ל- Microsoft</title>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="author" content="Microsoft Corporation">
+    
+    <meta name="Title" content="Report an unsafe site - Microsoft Security Intelligence">
+    <meta name="description" content="Report a website or URL that you believe might contain threats such as phishing or malware.">
+    <meta name="keywords" content="SmartScreen, website, page, webpage, phishing, malicious site, malware download, MMPC, Microsoft Malware Protection Center, Windows Defender, WDSI, Microsoft, security products">
+
+
+    <!-- Application Insight JS integration snippet. Source: https://docs.microsoft.com/en-us/azure/azure-monitor/app/javascript#snippet-based-setup -->
+    <script type="text/javascript">
+        !function (T, l, y) { var S = T.location, k = "script", D = "instrumentationKey", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = "crossOrigin", N = "POST", e = "appInsightsSDK", t = y.name || "appInsights"; (y.name || T[e]) && (T[e] = t); var n = T[t] || function (d) { var g = !1, f = !1, m = { initialize: !0, queue: [], sv: "5", version: 2, config: d }; function v(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S && S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (m.sv || m.version), { time: function () { var e = new Date; function t(e) { var t = "" + e; return 1 === t.length && (t = "0" + t), t } return e.getUTCFullYear() + "-" + t(1 + e.getUTCMonth()) + "-" + t(e.getUTCDate()) + "T" + t(e.getUTCHours()) + ":" + t(e.getUTCMinutes()) + ":" + t(e.getUTCSeconds()) + "." + ((e.getUTCMilliseconds() / 1e3).toFixed(3) + "").slice(2, 5) + "Z" }(), iKey: e, name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } } } var h = d.url || y.src; if (h) { function a(e) { var t, n, a, i, r, o, s, c, u, p, l; g = !0, m.queue = [], f || (f = !0, t = h, s = function () { var e = {}, t = d.connectionString; if (t) for (var n = t.split(";"), a = 0; a < n.length; a++) { var i = n[a].split("="); 2 === i.length && (e[i[0][b]()] = i[1]) } if (!e[C]) { var r = e.endpointsuffix, o = r ? e.location : null; e[C] = "https://" + (o ? o + "." : "") + "dc." + (r || "services.visualstudio.com") } return e }(), c = s[D] || d[D] || "", u = s[C], p = u ? u + "/v2/track" : d.endpointUrl, (l = []).push((n = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", a = t, i = p, (o = (r = v(c, "Exception")).data).baseType = "ExceptionData", o.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: n.replace(/\./g, "-"), hasFullStack: !1, stack: n + "\nSnippet failed to load [" + a + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S && S.pathname || "_unknown_") + "\nEndpoint: " + i, parsedStack: [] }], r)), l.push(function (e, t, n, a) { var i = v(c, "Message"), r = i.data; r.baseType = "MessageData"; var o = r.baseData; return o.message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + n + ")").replace(/\"/g, "") + '"', o.properties = { endpoint: a }, i }(0, 0, t, p)), function (e, t) { if (JSON) { var n = T.fetch; if (n && !y.useXhr) n(t, { method: N, body: JSON.stringify(e), mode: "cors" }); else if (XMLHttpRequest) { var a = new XMLHttpRequest; a.open(N, t), a.setRequestHeader("Content-type", "application/json"), a.send(JSON.stringify(e)) } } }(l, p)) } function i(e, t) { f || setTimeout(function () { !t && m.core || a() }, 500) } var e = function () { var n = l.createElement(k); n.src = h; var e = y[w]; return !e && "" !== e || "undefined" == n[w] || (n[w] = e), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState && "complete" !== n.readyState || i(0, t) }, n }(); y.ld < 0 ? l.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { l.getElementsByTagName(k)[0].parentNode.appendChild(e) }, y.ld || 0) } try { m.cookie = l.cookie } catch (p) { } function t(e) { for (; e.length;)!function (t) { m[t] = function () { var e = arguments; g || m.queue.push(function () { m[t].apply(m, e) }) } }(e.pop()) } var n = "track", r = "TrackPage", o = "TrackEvent"; t([n + "Event", n + "PageView", n + "Exception", n + "Trace", n + "DependencyData", n + "Metric", n + "PageViewPerformance", "start" + r, "stop" + r, "start" + o, "stop" + o, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), m.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }; var s = (d.extensionConfig || {}).ApplicationInsightsAnalytics || {}; if (!0 !== d[I] && !0 !== s[I]) { var c = "onerror"; t(["_" + c]); var u = T[c]; T[c] = function (e, t, n, a, i) { var r = u && u(e, t, n, a, i); return !0 !== r && m["_" + c]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i }), r }, d.autoExceptionInstrumented = !0 } return m }(y.cfg); function a() { y.onInit && y.onInit(n) } (T[t] = n).queue && 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
+            src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+            // name: "appInsights", // Global SDK Instance name defaults to "appInsights" when not supplied
+            // ld: 0, // Defines the load delay (in ms) before attempting to load the sdk. -1 = block page load and add to head. (default) = 0ms load after timeout,
+            // useXhr: 1, // Use XHR instead of fetch to report failures (if available),
+            crossOrigin: "anonymous", // When supplied this will add the provided value as the cross origin attribute on the script tag
+
+            // Once the application insights instance has loaded and initialized this callback function will be called with 1 argument -- the sdk instance (DO NOT ADD anything to the sdk.queue -- As they won't get called)
+            onInit: function (ai) {
+                // Set authenticated alias if available for user session tracking
+                var authenticatedAlias = "" || "anonymous";
+                ai.setAuthenticatedUserContext(authenticatedAlias);
+            },
+            cfg: { // Application Insights Configuration
+                instrumentationKey: "6cea1cd9-2ba0-40c4-8beb-af18b471c254",
+                enableAutoRouteTracking: true
+                /* ...Other Configuration Options... */
+            }
+        });
+    </script>
+
+    <link href="./משוב ל- Microsoft_files/bootstrap" rel="stylesheet">
+<link href="./משוב ל- Microsoft_files/jqueryui" rel="stylesheet">
+
+    <!--[if gt IE 9]><!-->
+    <link rel="stylesheet" href="./משוב ל- Microsoft_files/mwf-west-european-default.min.css">
+    <!--<![endif]-->
+    <!--[if IE 8]>
+        <link rel="stylesheet" href="https://assets.onestore.ms/cdnfiles/external/mwf/long/v1/v1.25.1/css/mwf-west-european-default-ie8.min.css">
+    <![endif]-->
+    <!--[if IE 9]>
+        <link rel="stylesheet" href="https://assets.onestore.ms/cdnfiles/external/mwf/long/v1/v1.25.1/css/mwf-west-european-default-ie9.min.css">
+    <![endif]-->
+    <!-- [if IE]><link rel="shortcut icon" href="/favicon.ico"><![endif] -->
+    <link rel="stylesheet" href="./משוב ל- Microsoft_files/uhf-west-european-default.min.css" media="all">
+
+    <link href="./משוב ל- Microsoft_files/site" rel="stylesheet">
+
+    <link rel="stylesheet" href="./משוב ל- Microsoft_files/74-888e54" type="text/css" media="all"><link rel="stylesheet" href="./משוב ל- Microsoft_files/override.css" type="text/css">
+
+    <style>
+        .logo-heading {
+            padding-top: 16px;
+            padding-left: 18px;
+        }
+    </style>
+
+    <script src="./משוב ל- Microsoft_files/jquery"></script><script src="./משוב ל- Microsoft_files/ai.2.min.js.download" crossorigin="anonymous"></script>
+<script src="./משוב ל- Microsoft_files/jqueryui(1)"></script>
+<script src="./משוב ל- Microsoft_files/modernizr"></script>
+<script src="./משוב ל- Microsoft_files/bootstrap(1)"></script>
+<script src="./משוב ל- Microsoft_files/site(1)"></script>
+
+    <script src="./משוב ל- Microsoft_files/mwf-main.var.min.js.download"></script>
+    <script src="./משוב ל- Microsoft_files/meversion"></script><script async="" type="text/javascript" charset="UTF-8" src="./משוב ל- Microsoft_files/ms.shared.analytics.mectrl-3.2.6.gbl.min.js.download" crossorigin="anonymous"></script>
+    <script src="./משוב ל- Microsoft_files/wcp-consent.js.download"></script><script src="./משוב ל- Microsoft_files/a2-598841"></script><script src="./משוב ל- Microsoft_files/meversion(1)" defer=""></script>
+
+    <script type="text/javascript">
+        // Fallback to loading from a local path if the CDN is unavailable
+        (window.Modernizr || document.write('<script src=https://securityintelligencecenter-eastus.azurewebsites.net/scripts/modernizr-2.6.2.js ><\/script>'));
+        (window.jQuery || document.write('<script src=https://securityintelligencecenter-eastus.azurewebsites.net/scripts/jquery-1.10.2.min.js ><\/script>'));
+    </script>
+
+    
+
+    <script type="text/javascript">
+
+        // Initialize MWF controls
+        mwf.ComponentFactory.create([
+            // Uncomment other MWF controls as needed
+            // PageBehaviors must come first
+            // { c: mwf.PageBehaviors },
+            // { c: mwf.ActionBar },
+            // { c: mwf.ActionMenu },
+            // { c: mwf.ActionToggle },
+            { c: mwf.Alert, selector: '.c-alert, .m-alert' },
+            // { c: mwf.AmbientVideo },
+            // { c: mwf.BackToTop, selector: '.c-back-to-top, .m-back-to-top' },
+            { c: mwf.Button },
+            { c: mwf.Checkbox },
+            // { c: mwf.ChoiceSummary },
+            { c: mwf.Combo },
+            // { c: mwf.CompareChart, selector: '.c-compare-chart, .m-compare-chart' },
+            // { c: mwf.ContentPlacementItem, selector: '.m-content-placement-item' },
+            { c: mwf.ContentToggle, eventToBind: 'DOMContentLoaded' },
+            { c: mwf.DateTimePicker },
+            // { c: mwf.DeviceActions },
+            { c: mwf.Dialog },
+            { c: mwf.Drawer },
+            // { c: mwf.FeedHeroItem },
+            { c: mwf.File },
+            { c: mwf.Flyout },
+            // { c: mwf.HeroItem, selector: '.c-hero, .m-hero-item' },
+            // { c: mwf.ImmersiveHeroItem },
+            // { c: mwf.InPageNavigation, selector: '.c-in-page-navigation, .m-in-page-navigation' },
+            // { c: mwf.MosaicPlacement },
+            // { c: mwf.MultiFeature },
+            // { c: mwf.MultiHeroItem },
+            // { c: mwf.MultiSlideCarousel },
+            // { c: mwf.NavigationMenu },
+            // { c: mwf.NavigationBar },
+            // { c: mwf.PageBar },
+            // { c: mwf.Pagination, selector: '.c-pagination, .m-pagination' },
+            { c: mwf.Pivot },
+            // { c: mwf.ProductPlacement },
+            // { c: mwf.ProductPlacementItem },
+            // { c: mwf.RangeSlider },
+            // { c: mwf.Rating },
+            // { c: mwf.RefineMenu },
+            { c: mwf.Select },
+            { c: mwf.SelectButton },
+            { c: mwf.SelectMenu, selector: '.c-select-menu, .c-select-menu .c-menu-item.f-sub-menu' },
+            // { c: mwf.SequenceIndicator, selector: '.c-sequence-indicator' },
+            // { c: mwf.SingleSlideCarousel },
+            // { c: mwf.Slider },
+            // { c: mwf.Social, selector: '.c-social, .m-social' },
+            // { c: mwf.SplitReveal },
+            // { c: mwf.SupplementalNavigation, selector: '.c-supplemental-nav, .m-supplemental-nav' },
+            { c: mwf.Table, eventToBind: 'DOMContentLoaded' },
+            // { c: mwf.Toggle },
+            { c: mwf.Tooltip },
+            // { c: mwf.Video, eventToBind: 'DOMContentLoaded' },
+            // { c: mwf.VideoTrigger }
+        ]);
+    </script>
+<script async="" type="text/javascript" charset="UTF-8" src="./משוב ל- Microsoft_files/ms.shared.analytics.mectrl-3.2.6.gbl.min.js.download" crossorigin="anonymous"></script></head>
+<body style="">
+
+    <main class="container body-content">
+        <header class="logo-heading">
+            <a href="https://www.microsoft.com/" class="c-logo" aria-label="Microsoft">
+                <img itemprop="logo" src="./משוב ל- Microsoft_files/mslogo.png" class="c-image x-hidden-focus" role="presentation" aria-hidden="true">
+            </a>
+        </header>
+        <script type="text/javascript">
+    $(function () {
+        $("#pfFeedbackButton").on("click", function () {
+            $("#pfThankyou").hide();
+            $("#pfButtonFeedbackEmotion1").prop("checked", true);
+            $("#pfTextareaExperience").val("");
+        });
+
+        $("#pfButtonFeedbackSubmit").on("click", function () {
+            $("#pfThankyou").show();
+            $.ajax({
+                url: "/en-us/wdsi/api/sendfeedback?module=UrlSubmission&opinion=" + $("[name='buttonFeedbackEmotion']:checked").val() + "&description=" + $("#pfTextareaExperience").val(),
+                type: 'POST',
+                success: function (result) {
+                    setTimeout(function () { $("#pfCloseDialog").click(); }, 1500);
+                }
+            });
+        });
+    });
+</script>
+<style>
+    #pfFeedbackContainer {
+        width: 100%;
+        margin-bottom: -60px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #pfFeedbackButton {
+        z-index: 100;
+    }
+
+    #pfFeedbackButton:focus{
+       outline:1px dotted #000;
+    }
+
+    #pfFieldsetEmotions label {
+        display: inline-block;
+        margin-top: 16px;
+        cursor: pointer;
+    }
+
+
+    #pfFieldsetEmotions input[type="radio"]:checked {
+        border: 1px solid black;
+    }
+
+        #pfFieldsetEmotions input[type="radio"]:checked + img {
+            width: 30px;
+            height: 30px;
+        }
+
+        #pfFieldsetEmotions input[type="radio"]:focus + img {
+            border: 1px dotted black;
+        }
+
+    #pfFieldsetEmotions c-tooltip {
+        font-weight: normal;
+    }
+
+    #pfDialogFeedback {
+        max-height: 330px;
+    }
+
+    #pfDialogFeedback img {
+        width: 25px;
+        height: 25px;
+    }
+
+    #pfDialogFeedbackInner {
+        width: 294px;
+    }
+
+    #pfTooltipHappy, #pfTooltipSad {
+        font-weight: normal;
+    }
+
+    #pfLabelExperience {
+        margin-top: 8px;
+        font-weight: normal;
+    }
+
+    #pfButtonFeedbackSubmit {
+        float: left;
+    }
+
+    #pfTextareaExperience {
+        min-width: 100px;
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 13px;
+        border-color: rgba(0, 0, 0, 0.2);
+    }
+
+    #pfThankyou {
+        font-weight: normal;
+        font-size: 13px;
+        clear: both;
+        padding-top: 8px;
+    }
+
+    .provide-feedback-focus-tooltip {
+        display: none;
+    } 
+
+    #pfFeedbackButton:focus-visible .provide-feedback-focus-tooltip {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 2px #777;
+        color: #333;
+        display: block;
+        font-size: 12px;
+        max-width: 328px;
+        line-height: normal !important;
+        overflow-wrap: break-word;
+        position: fixed;
+        padding: 2px;
+        z-index: 9999999;
+        margin-top: 6px;
+    }
+
+</style>
+<div id="pfFeedbackContainer" datagrid="col-12">
+    <button id="pfFeedbackButton" class="c-action-trigger" data-js-dialog-show="pfDialogFeedback" type="button" aria-label="Provide feedback" tabindex="0">
+        <img class="c-image" aria-hidden="true" tabindex="-1" src="./משוב ל- Microsoft_files/30x30_happy.png" title="Provide feedback">
+        <span class="provide-feedback-focus-tooltip">Provide feedback</span>
+    </button>
+    
+</div>
+        
+
+
+
+<style>
+    .hideLeft {
+        position: absolute;
+        left: -10000px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    }
+
+    div.m-alert.f-error {
+        display: none;
+        margin-bottom: -10px;
+    }
+
+    div.m-alert div.c-glyph {
+        line-height: normal;
+    }
+
+    #requestCreatedPanel {
+        display: none;
+    }
+
+    #WebsiteUrlOrIPLabel {
+        margin-top: 0px;
+    }
+
+    #ThreatLabel {
+        margin-top: 0px;
+    }
+
+    .UserOptionPanel {
+        margin-top: 10px;
+    }
+
+    #SOFBInput {
+        margin-top: 30px;
+    }
+
+    #orLabel {
+        margin-top: 45px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    .selectLabel {
+        font-size: 13px;
+        padding-bottom: 7px;
+    }
+
+    .label-fix {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+    .label-fontsize {
+        font-size: 15px;
+    }
+
+    figcaption.c-caption-2 {
+        font-size: 13px;
+    }
+
+    .textField {
+        width: 400px !important;
+    }
+
+    #filePickerContainer {
+        background: rgba(204, 204, 204, 0.41);
+        padding-left: 40px;
+        width: 500px;
+        padding-bottom: 18px;
+        margin-bottom: 8px;
+        padding-top: 18px;
+    }
+
+        #filePickerContainer > div {
+            padding-bottom: 12px;
+        }
+
+    .urlFilePickerContainer {
+        margin: 10px;
+        margin-left: 0px;
+    }
+
+    .c-labelTop {
+        margin-top: 5px;
+    }
+
+    .radioIndent {
+        margin-left: 28px;
+    }
+
+    .centerUpload > button {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .urlInput {
+        margin-top: 20px;
+    }
+
+    .textboxLabel {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .textDisplay {
+        display: inline-block;
+    }
+
+    .submissionTextSize {
+        padding-top: 25px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    #urlCounter {
+        text-align: right;
+        padding-right: 60px;
+        color: red;
+        display: none;
+    }
+
+    /* Want to make sure this displays correctly in IE9 */
+    #pfFeedbackContainer {
+        text-align: right;
+    }
+
+    #pfFeedbackButton {
+        display: inline-block;
+    }
+</style>
+
+
+<div class="hideLeft" aria-live="assertive" aria-atomic="true"></div>
+
+<main id="urlSubmissionPanel" data-grid="col-12 container">
+    <header class="btm-margin" data-grid="col-12 pad-12x stack-4">
+        <h2 id="submitUrlHeader" data-grid="col-12" class="c-heading-2">משוב ל- Microsoft</h2>
+    </header>
+    <section data-grid="col-12 pad-12x">
+        <div data-grid="col-12" class="x-clearfix">
+
+            <div data-grid="col-12" class="c-paragraph-3">
+
+                <label id="ReportingWebsiteLabel" class="c-label label-fix" for="ReportingWebsite">אתר האינטרנט שעליו אתה מדווח:</label>
+                <p id="ReportingWebsite" class="c-paragraph">https://0078f182ee.9a5cb35bf2.com/in/track?data=eyJ3bCI6MCwic3ViaWQiOjk0MjcyOTQ3MSwidXNlcl9pZCI6IjEzMzYxNTUzMjcxMDg2NDE2MDAwIiwidGltZXpvbmUiOi04LCJ2ZXIiOiIzLjI1LjEiLCJ0YWdfaWQiOjAsInNjcmVlbl9yZXNvbHV0aW9uIjoiMTUzNng4NjQiLCJhZGJsb2NrIjowLCJ0aW1lem9uZV9vbHNvbiI6IkFtZXJpY2EvTG9zX0FuZ2VsZXMiLCJ1dG1fc291cmNlIjoidGNwbyIsInV0bV9tZWRpdW0iOiIzMTQ1NSIsInV0bV9jYW1wYWlnbiI6Ijk0MjcyOTQ3MSIsInV0bV9jb250ZW50IjoiODUtIiwibW0iOjAsImluaXRfc3RhcnRfbGF0ZW5jeSI6MS45NiwiaXNfdjIiOjAsImlzX3YyX2VtcHR5IjowLCJ1c2VyX2tleXdvcmRzIjoiVmlkZW8lMkNQb3JubyUyQ0dyYXRpcyUyQ1ZpZGVvcyUyQ2RlJTJDU2V4byUyQ0dyYXRpcyUyQ34lMkNwb3JubC5jb20lMkNCZXN0JTJDYW5kJTJDMTAwJTI1JTJDRnJlZSUyQ1NleCUyQ1ZpZGVvcyUyQ1Bvcm5MJTJDSG90dGVzdCUyQ1Bvcm4lMkNTZWxlY3Rpb24uIn0=</p>
+                <br>
+            </div>
+
+        </div>
+                    <div id="ReportSource" data-grid="col-12" class="x-clearfix UserOptionPanel">
+                <div data-grid="col-12" class="m-alert f-error" name="ReportSource" role="alert">
+                    <div>
+                        <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                        <p class="c-paragraph">נא בחר אפשרות</p>
+                    </div>
+                </div>
+                <div data-grid="col-12">
+                    <fieldset class="c-radio">
+                        <div>
+                            <div data-grid="col-12" role="radiogroup">
+                                <label class="c-label c-labelTop" data-grid="col-6">
+                                    <input type="radio" id="ReportSourceEUFB" aria-label="אני סבור שזהו אתר אינטרנט בטוח" onclick="onReportSourceChanged(this)" name="ReportSource" value="EUFB">
+                                    <span role="radio">אני סבור שזהו אתר אינטרנט בטוח</span>
+                                </label>
+                                <div data-grid="col-12"></div>
+                                <label class="c-label" data-grid="col-6">
+                                    <input type="radio" id="ReportSourceSOFB" aria-label="אני הבעלים או הנציג של אתר אינטרנט זה וברצוני לדווח על אזהרה שגויה לגבי אתר אינטרנט זה" onclick="onReportSourceChanged(this)" name="ReportSource" value="SOFB">
+                                    <span role="radio">אני הבעלים או הנציג של אתר אינטרנט זה וברצוני לדווח על אזהרה שגויה לגבי אתר אינטרנט זה</span>
+                                </label>
+                                <div data-grid="col-12"></div>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                </div>
+            </div>
+        <div id="WebSiteLanguagePanel" data-grid="col-12" class="x-clearfix">
+            <div data-grid="col-12" class="m-alert f-error" name="comboLanguage" role="alert">
+                <div>
+                    <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                    <p class="c-paragraph">נא בחר אפשרות</p>
+                </div>
+            </div>
+            <div data-grid="col-12">
+                <label id="WebsiteLanguageLabel" class="c-label label-fontsize" for="formWebSiteLanguage">השפה בשימוש באתר האינטרנט:</label>
+
+                <form class="c-combo" id="formWebSiteLanguage" target="_self">
+
+
+                    <input type="text" aria-expanded="false" autocomplete="off" id="comboLanguage" aria-labelledby="WebsiteLanguageLabel" name="comboLanguage" readonly="" role="combobox" value="עברית " aria-required="true"><div class="x-screen-reader" aria-live="assertive"></div>
+
+                    <button id="LanguageListButton" class="c-glyph" name="select" role="button">
+                        <span class="x-screen-reader">השפה בשימוש באתר האינטרנט:</span>
+                    </button>
+                    <div role="group">
+                        <ul id="comboLanguageList" aria-expanded="false" tabindex="0" role="listbox">
+                                    <li id="lang1" role="option"><span tabindex="0" aria-label="אוזבקית " languageid="67">אוזבקית </span></li>
+                                    <li id="lang2" role="option"><span tabindex="0" aria-label="אוקראינית " languageid="34">אוקראינית </span></li>
+                                    <li id="lang3" role="option"><span tabindex="0" aria-label="אורדו " languageid="32">אורדו </span></li>
+                                    <li id="lang4" role="option"><span tabindex="0" aria-label="אזרית " languageid="44">אזרית </span></li>
+                                    <li id="lang5" role="option"><span tabindex="0" aria-label="איטלקית " languageid="16">איטלקית </span></li>
+                                    <li id="lang6" role="option"><span tabindex="0" aria-label="אינדונזית " languageid="33">אינדונזית </span></li>
+                                    <li id="lang7" role="option"><span tabindex="0" aria-label="איסלנדית " languageid="15">איסלנדית </span></li>
+                                    <li id="lang8" role="option"><span tabindex="0" aria-label="אלבנית " languageid="28">אלבנית </span></li>
+                                    <li id="lang9" role="option"><span tabindex="0" aria-label="אנגלית " languageid="9">אנגלית </span></li>
+                                    <li id="lang10" role="option"><span tabindex="0" aria-label="אסטונית " languageid="37">אסטונית </span></li>
+                                    <li id="lang11" role="option"><span tabindex="0" aria-label="אפריקאנס " languageid="54">אפריקאנס </span></li>
+                                    <li id="lang12" role="option"><span tabindex="0" aria-label="ארמנית " languageid="43">ארמנית </span></li>
+                                    <li id="lang13" role="option"><span tabindex="0" aria-label="בולגרית " languageid="2">בולגרית </span></li>
+                                    <li id="lang14" role="option"><span tabindex="0" aria-label="בלרוסית " languageid="35">בלרוסית </span></li>
+                                    <li id="lang15" role="option"><span tabindex="0" aria-label="בסקית " languageid="45">בסקית </span></li>
+                                    <li id="lang16" role="option"><span tabindex="0" aria-label="גוג&#39;ארטי " languageid="71">גוג'ארטי </span></li>
+                                    <li id="lang17" role="option"><span tabindex="0" aria-label="גליציאנית " languageid="86">גליציאנית </span></li>
+                                    <li id="lang18" role="option"><span tabindex="0" aria-label="גרוזינית " languageid="55">גרוזינית </span></li>
+                                    <li id="lang19" role="option"><span tabindex="0" aria-label="גרמנית " languageid="7">גרמנית </span></li>
+                                    <li id="lang20" role="option"><span tabindex="0" aria-label="דיווהית " languageid="101">דיווהית </span></li>
+                                    <li id="lang21" role="option"><span tabindex="0" aria-label="דנית " languageid="6">דנית </span></li>
+                                    <li id="lang22" role="option"><span tabindex="0" aria-label="הולנדית " languageid="19">הולנדית </span></li>
+                                    <li id="lang23" role="option"><span tabindex="0" aria-label="הונגרית " languageid="14">הונגרית </span></li>
+                                    <li id="lang24" role="option"><span tabindex="0" aria-label="הינדי " languageid="57">הינדי </span></li>
+                                    <li id="lang25" role="option"><span tabindex="0" aria-label="וייטנאמית " languageid="42">וייטנאמית </span></li>
+                                    <li id="lang26" role="option"><span tabindex="0" aria-label="טורקית " languageid="31">טורקית </span></li>
+                                    <li id="lang27" role="option"><span tabindex="0" aria-label="טטארית " languageid="68">טטארית </span></li>
+                                    <li id="lang28" role="option"><span tabindex="0" aria-label="טלוגו " languageid="74">טלוגו </span></li>
+                                    <li id="lang29" role="option"><span tabindex="0" aria-label="טמילית " languageid="73">טמילית </span></li>
+                                    <li id="lang30" role="option"><span tabindex="0" aria-label="יוונית " languageid="8">יוונית </span></li>
+                                    <li id="lang31" role="option"><span tabindex="0" aria-label="יפנית " languageid="17">יפנית </span></li>
+                                    <li id="lang32" role="option"><span tabindex="0" aria-label="לטבית " languageid="38">לטבית </span></li>
+                                    <li id="lang33" role="option"><span tabindex="0" aria-label="ליטאית " languageid="39">ליטאית </span></li>
+                                    <li id="lang34" role="option"><span tabindex="0" aria-label="מאראתי " languageid="78">מאראתי </span></li>
+                                    <li id="lang35" role="option"><span tabindex="0" aria-label="מונגולית " languageid="80">מונגולית </span></li>
+                                    <li id="lang36" role="option"><span tabindex="0" aria-label="מלאית " languageid="62">מלאית </span></li>
+                                    <li id="lang37" role="option"><span tabindex="0" aria-label="מקדונית (מקדוניה הצפונית)" languageid="47">מקדונית (מקדוניה הצפונית)</span></li>
+                                    <li id="lang38" role="option"><span tabindex="0" aria-label="נורווגית " languageid="20">נורווגית </span></li>
+                                    <li id="lang39" role="option"><span tabindex="0" aria-label="סורית " languageid="90">סורית </span></li>
+                                    <li id="lang40" role="option"><span tabindex="0" aria-label="סינית (מסורתית)" languageid="31748">סינית (מסורתית)</span></li>
+                                    <li id="lang41" role="option"><span tabindex="0" aria-label="סינית (פשוטה)" languageid="4">סינית (פשוטה)</span></li>
+                                    <li id="lang42" role="option"><span tabindex="0" aria-label="סלובנית " languageid="36">סלובנית </span></li>
+                                    <li id="lang43" role="option"><span tabindex="0" aria-label="סלובקית " languageid="27">סלובקית </span></li>
+                                    <li id="lang44" role="option"><span tabindex="0" aria-label="סנסקריט " languageid="79">סנסקריט </span></li>
+                                    <li id="lang45" role="option"><span tabindex="0" aria-label="ספרדית " languageid="10">ספרדית </span></li>
+                                    <li id="lang46" role="option"><span tabindex="0" aria-label="סרבית " languageid="31770">סרבית </span></li>
+                                    <li id="lang47" role="option"><span tabindex="0" aria-label="עברית " languageid="13">עברית </span></li>
+                                    <li id="lang48" role="option"><span tabindex="0" aria-label="ערבית " languageid="1">ערבית </span></li>
+                                    <li id="lang49" role="option"><span tabindex="0" aria-label="פארואזית " languageid="56">פארואזית </span></li>
+                                    <li id="lang50" role="option"><span tabindex="0" aria-label="פולנית " languageid="21">פולנית </span></li>
+                                    <li id="lang51" role="option"><span tabindex="0" aria-label="פורטוגזית " languageid="22">פורטוגזית </span></li>
+                                    <li id="lang52" role="option"><span tabindex="0" aria-label="פינית " languageid="11">פינית </span></li>
+                                    <li id="lang53" role="option"><span tabindex="0" aria-label="פנג&#39;בית " languageid="70">פנג'בית </span></li>
+                                    <li id="lang54" role="option"><span tabindex="0" aria-label="פרסית " languageid="41">פרסית </span></li>
+                                    <li id="lang55" role="option"><span tabindex="0" aria-label="צ&#39;כית " languageid="5">צ'כית </span></li>
+                                    <li id="lang56" role="option"><span tabindex="0" aria-label="צרפתית " languageid="12">צרפתית </span></li>
+                                    <li id="lang57" role="option"><span tabindex="0" aria-label="קונקאני " languageid="87">קונקאני </span></li>
+                                    <li id="lang58" role="option"><span tabindex="0" aria-label="קוריאנית " languageid="18">קוריאנית </span></li>
+                                    <li id="lang59" role="option"><span tabindex="0" aria-label="קזאחית " languageid="63">קזאחית </span></li>
+                                    <li id="lang60" role="option"><span tabindex="0" aria-label="קטלונית " languageid="3">קטלונית </span></li>
+                                    <li id="lang61" role="option"><span tabindex="0" aria-label="קיסוואהילי " languageid="65">קיסוואהילי </span></li>
+                                    <li id="lang62" role="option"><span tabindex="0" aria-label="קירגיזית " languageid="64">קירגיזית </span></li>
+                                    <li id="lang63" role="option"><span tabindex="0" aria-label="קנאדה " languageid="75">קנאדה </span></li>
+                                    <li id="lang64" role="option"><span tabindex="0" aria-label="קרואטית " languageid="26">קרואטית </span></li>
+                                    <li id="lang65" role="option"><span tabindex="0" aria-label="רומנית " languageid="24">רומנית </span></li>
+                                    <li id="lang66" role="option"><span tabindex="0" aria-label="רוסית " languageid="25">רוסית </span></li>
+                                    <li id="lang67" role="option"><span tabindex="0" aria-label="שוודית " languageid="29">שוודית </span></li>
+                                    <li id="lang68" role="option"><span tabindex="0" aria-label="תאילנדית " languageid="30">תאילנדית </span></li>
+
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+            <div id="SOFBInput" data-grid="col-12" class="x-clearfix" display="none" style="display: none;">
+                <div data-grid="col-12">
+                    <p>אם אתה הבעלים או הנציג של אתר אינטרנט זה, נא השב על כל השאלות בטופס זה ולאחר מכן שלח את הטופס ל- Microsoft.‏ </p>
+                    <p>Microsoft תסקור את המידע שאתה מספק. אם האזהרה נוצרה שלא בצדק, Microsoft תסיר אותה.</p>
+                    <p>נא שלח טופס אחד בלבד עבור כל דף אינטרנט (URL) שנוי במחלוקת. טפסים כפולים לא יזרזו את תהליך הבדיקה. אם יש בתחום שלך דפי אינטרנט מרובים המייצרים אזהרות שגויות, נא ציין זאת להלן כדי שנתייחס לנושא.</p>
+                    <p>לקבלת מידע נוסף על אופן הפעולה של Microsoft Defender SmartScreen, ראה </p>
+                    <a class="c-hyperlink" href="https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview">שאלות נפוצות אודות אתר המשוב</a>
+                </div>
+
+                <div data-grid="col-12" class="m-alert f-error" name="SOName" role="alert">
+                    <div>
+                        <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                        <p class="c-paragraph">*נדרש</p>
+                    </div>
+                </div>
+                <div data-grid="col-12">
+                    <label id="SONameLabel" class="c-label" for="SOName">שמך:</label>
+                    <input type="text" id="SOName" class="c-text-field f-flex textField">
+                </div>
+
+                <div data-grid="col-12" class="m-alert f-error" name="SOEmail" role="alert">
+                    <div>
+                        <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                        <p class="c-paragraph">*נדרש</p>
+                    </div>
+                </div>
+                <div data-grid="col-12" class="m-alert f-error" name="SOEmailRegex" role="alert">
+                    <div>
+                        <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                        <p class="c-paragraph">דואר אלקטרוני לא חוקי</p>
+                    </div>
+                </div>
+                <div data-grid="col-12">
+                    <label id="SOEmailLabel" class="c-label" for="SOEmail">כתובת דואר אלקטרוני:</label>
+                    <input type="text" id="SOEmail" class="c-text-field f-flex textField">
+                </div>
+
+                <div data-grid="col-12" class="m-alert f-error" name="SOFirm" role="alert">
+                    <div>
+                        <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                        <p class="c-paragraph">*נדרש</p>
+                    </div>
+                </div>
+                <div data-grid="col-12">
+                    <label id="SOFirmLabel" class="c-label" for="SOFirm">שם חברה:</label>
+                    <input type="text" id="SOFirm" class="c-text-field f-flex textField">
+                </div>
+
+                <div data-grid="col-12" class="m-alert f-error" name="SOAddress" role="alert">
+                    <div>
+                        <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                        <p class="c-paragraph">*נדרש</p>
+                    </div>
+                </div>
+                <div data-grid="col-12">
+                    <label id="SOAddressLabel" class="c-label" for="SOAddress">רחוב:</label>
+                    <input type="text" id="SOAddress" class="c-text-field f-flex textField">
+                </div>
+
+                <div data-grid="col-12" class="m-alert f-error" name="SOHomePage" role="alert">
+                    <div>
+                        <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                        <p class="c-paragraph">*נדרש</p>
+                    </div>
+                </div>
+                <div data-grid="col-12">
+                    <label id="SOHomePageLabel" class="c-label" for="SOHomePage">כתובת אתר אינטרנט:</label>
+                    <input type="text" id="SOHomePage" class="c-text-field f-flex textField">
+                </div>
+
+                <div data-grid="col-12" class="m-alert f-error" name="SOPurpose" role="alert">
+                    <div>
+                        <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                        <p class="c-paragraph">*נדרש</p>
+                    </div>
+                </div>
+                <div data-grid="col-12">
+                    <label id="SOPurposeLabel" class="c-label" for="SOPurpose">מטרת אתר האינטרנט:</label>
+                    <input type="text" id="SOPurpose" class="c-text-field f-flex textField">
+                </div>
+
+                <div data-grid="col-12" class="m-alert f-error" name="SOOptions" role="alert">
+                    <div>
+                        <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                        <p class="c-paragraph">*נדרש</p>
+                    </div>
+                </div>
+                <div data-grid="col-12">
+                    <label id="SOOptions" class="c-label" for="SOOptions">האם קיימים באתר שלך דפי אינטרנט נוספים המייצרים אזהרות שגויות?</label>
+                    <fieldset class="c-radio">
+                        <div data-grid="col-12">
+                            <div role="radiogroup">
+                                <label class="c-label c-labelTop">
+                                    <input type="radio" id="SOOptionsYes" name="SOOptions" aria-label="Yes" value="Yes" onclick="onSOOptionsChanged(this)">
+                                    <span role="radio">כן</span>
+                                </label>
+                                <label class="c-label">
+                                    <input type="radio" id="SOOptionsNo" name="SOOptions" aria-label="No" value="No" onclick="onSOOptionsChanged(this)">
+                                    <span role="radio">לא</span>
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div id="SOAdditionalPagesFrame" style="display: none;">
+                    <div data-grid="col-12" class="m-alert f-error" name="SOAdditionalPages" role="alert">
+                        <div>
+                            <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                            <p class="c-paragraph">*נדרש</p>
+                        </div>
+                    </div>
+                    <div data-grid="col-12">
+                        <label id="SOAdditionalPagesLabel" class="c-label" for="SOAdditionalPages">נא ספק קישורים (כתובות URL) נוספים בתחום שלך המייצרים אזהרות שגויות:</label>
+                        <textarea id="SOAdditionalPages" class="form-control" wrap="off" rows="3"></textarea>
+                    </div>
+                </div>
+
+                <div data-grid="col-12" class="m-alert f-error" name="SOPii" role="alert">
+                    <div>
+                        <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                        <p class="c-paragraph">*נדרש</p>
+                    </div>
+                </div>
+                <div data-grid="col-12">
+                    <label id="SOPiiLabel" class="c-label" for="SOPii">פרט את כל סוגי המידע האישי שאתר האינטרנט שלך אוסף:        </label>
+                    <textarea id="SOPii" class="form-control" wrap="off" rows="3"></textarea>
+                </div>
+
+                <div data-grid="col-12" class="m-alert f-error" name="SOPiiReason" role="alert">
+                    <div>
+                        <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                        <p class="c-paragraph">*נדרש</p>
+                    </div>
+                </div>
+                <div data-grid="col-12">
+                    <label id="SOPiiReasonLabel" class="c-label" for="SOPiiReason">מדוע אתר האינטרנט שלך אוסף מידע אישי?</label>
+                    <textarea id="SOPiiReason" class="form-control" wrap="off" rows="3"></textarea>
+                </div>
+
+                <div data-grid="col-12" class="m-alert f-error" name="SOPrivacyUrl" role="alert">
+                    <div>
+                        <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                        <p class="c-paragraph">*נדרש</p>
+                    </div>
+                </div>
+                <div data-grid="col-12">
+                    <label id="SOPrivacyUrlLabel" class="c-label" for="SOPrivacyUrl">ספק קישור (כתובת URL) להצהרת הפרטיות של אתר האינטרנט שלך:</label>
+                    <input type="text" id="SOPrivacyUrl" class="c-text-field f-flex textField">
+                </div>
+
+                <div data-grid="col-12">
+                    <label id="SOReproLabel" class="c-label" for="SORepro">נא פרט הוראות נוספות לניווט אל הדף שאתה שולח (אופציונלי):</label>
+                    <textarea id="SORepro" class="form-control" wrap="off" rows="3"></textarea>
+                </div>
+
+                <div data-grid="col-12">
+                    <label id="SOCommentsLabel" class="c-label" for="SOComments">הערות נוספות (אופציונלי):</label>
+                    <textarea id="SOComments" class="form-control" wrap="off" rows="3"></textarea>
+                </div>
+            </div>
+        <div data-grid="col-12" class="x-clearfix">
+            <div data-grid="col-12" class="m-alert f-error" name="solutionMissingVisual" role="alert">
+                <div>
+                    <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                    <p class="c-paragraph">תשובה ריקה אינה חוקית</p>
+                </div>
+            </div>
+            <div data-grid="col-12" class="m-alert f-error" name="solutionMissingAudio" role="alert">
+                <div>
+                    <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                    <p class="c-paragraph">תשובה ריקה אינה חוקית</p>
+                </div>
+            </div>
+            <div data-grid="col-12" class="m-alert f-error" name="solutionInvalid" role="alert">
+                <div>
+                    <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                    <p class="c-paragraph">נא הזן את תשובתך</p>
+                </div>
+            </div>
+            <div data-grid="col-12" class="m-alert f-error" name="solutionInvalidAudio" role="alert">
+                <div>
+                    <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                    <p class="c-paragraph">נא הזן את תשובתך</p>
+                </div>
+            </div>
+            <div data-grid="col-12" class="m-alert f-error" name="submissionFailed" role="alert">
+                <div>
+                    <div class="c-glyph glyph-incident-triangle" aria-label="Error message"></div>
+                    <p class="c-paragraph">לא ניתן להשלים את בקשתך כעת. נא נסה שוב מאוחר יותר.</p>
+                </div>
+            </div>
+            <div data-grid="col-12">
+                <div data-grid="col-12" id="hipCaptchaRoot" style="padding-top: 15px;">
+    <style type="text/css">
+        .spHipNoClear::-ms-clear {
+            display: none;
+        }
+    </style>
+    <div>
+        <table id="hipContentRoot" role="presentation" cellspacing="0" dir="ltr">
+            <tbody>
+                <tr>
+                    <td width="10px" style="padding:0px;text-align:right" class=""></td>
+                    <td style="padding:0px;width:245px;text-align:left">
+                        <div style="padding:0 0 8px 0" class="">
+                            <label for="hipSolutionElementA" id="hipHipInstructionContainerA" class="x-hidden-focus" style="display:none">
+                                Press 1 to play or repeat the audio. Enter the words you hear in any order.
+                            </label>
+                            <label for="hipSolutionElementV" id="hipHipInstructionContainerV">Enter the characters you see</label>
+                            <div style="white-space: nowrap">
+                                <a id="hipHIPNew" role="button" href="https://feedback.smartscreen.microsoft.com/feedback.aspx" class="" title="Get a new challenge">New</a>
+                                <b aria-hidden="true">&nbsp;|&nbsp;</b>
+                                <a id="hipHIPToV" role="button" href="https://feedback.smartscreen.microsoft.com/feedback.aspx" class="" style="display:none" title="Switch to the visual challenge">Picture</a>
+                                <a id="hipHIPToA" role="button" href="https://feedback.smartscreen.microsoft.com/feedback.aspx" class="" title="Switch to the audio challenge">Audio</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr id="hipAudioRoot" style="display:none">
+                    <td aria-hidden="true"></td>
+                    <td style="padding:0px;text-align:left">
+                        <div id="hipaudioHolder"></div>
+                        <table cellspacing="0" style="table-layout:fixed;width:245px">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="padding:0px;width:76px;height:76px">
+                                                        <div id="hipaudioBtnHolder">
+                                                            <audio id="hipHipHtml5Audio" controls=""></audio>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tbody>
+                                                <tr id="hipHIPErrorContainerA" style="padding:0;display:none">
+                                                    <td class="" style="padding:0 4px 0 0;width:16px">
+                                                        <img src="./משוב ל- Microsoft_files/icon_err.gif" alt="">
+                                                    </td>
+                                                    <td style="padding:0px; width:229px">
+                                                        <div role="alert" aria-live="assertive">
+                                                            <div id="hipHIPErrorEmptyA" aria-label="Please enter all the words you hear." class="" style="text-align: left; display: none;">
+                                                                Please enter all the words you hear.
+                                                            </div>
+                                                            <div id="hipHIPErrorFailedToLoadA" aria-label="Unable to retrieve captcha, please reload page and try again." class="" style="text-align: left; display: none">
+                                                                Unable to retrieve captcha, please reload page and try again.
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding:0px;">
+                                        <input id="hipSolutionElementA" type="text" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="off" aria-required="true" aria-label="Press 1 to play or repeat the audio. Enter the words you hear in any order." class="spHipNoClear " style="border-width: 2px; text-align: left; padding: 0px; margin: 0px;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr id="hipVisualRoot">
+                    <td aria-hidden="true">
+                    </td><td style="padding: 0px; text-align: left">
+                        <table cellspacing="0" style="table-layout: fixed; width: 245px" role="presentation">
+                            <tbody>
+                                <tr>
+                                    <td aria-hidden="true">
+                                        <div id="hipContentId">
+                                            <table role="presentation" cellspacing="0">
+                                                <thead style="height: 0px">
+                                                </thead><tfoot style="height: 0px">
+                                                </tfoot><tbody>
+                                                    <tr>
+                                                        <td aria-hidden="true" style="vertical-align: middle; text-align: center; padding: 0px; margin: 0px; width: 216px; height: 96px; ">
+                                                            <img id="hipHIPBimg0" aria-label="Visual Challenge" alt="Visual Challenge" src="data:image/png;base64, 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" style="display: inline; width: 216px; height: 96px;">
+                                                            <img id="hipHIPBimg1" src="./משוב ל- Microsoft_files/hig_progcircle_animated.gif" alt="" style="display: none;">
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td aria-hidden="true" height="8px">
+                                </td></tr>
+                                <tr>
+                                    <td>
+                                        <table role="presentation">
+                                            <tbody>
+                                                <tr id="hipHIPErrorContainerV" style="padding: 0; display: none">
+                                                    <td class="" style="padding: 0 4px 0 0; width: 16px">
+                                                        <img src="./משוב ל- Microsoft_files/icon_err.gif" alt="">
+                                                    </td>
+                                                    <td style="padding: 0px; width: 229px">
+                                                        <div role="alert" aria-live="assertive">
+                                                            <div id="hipHIPErrorEmptyV" aria-label="Please enter all of the characters you see." class="" style="text-align: left; display: none">
+                                                                Please enter all of the characters you see.
+                                                            </div>
+                                                            <div id="hipHIPErrorFailedToLoadV" aria-label="Unable to retrieve captcha, please reload page and try again." class="" style="text-align: left; display: none">
+                                                                Unable to retrieve captcha, please reload page and try again.
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 0px">
+                                        <input id="hipSolutionElementV" type="text" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="off" aria-required="true" aria-label="Enter the characters you see" class="spHipNoClear" style=" border-width: 2px; direction: ltr; width: 241px; text-align: left; padding: 0px; margin: 0px; ">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+            </div>
+        </div>
+            <div data-grid="col-12">
+                <p class="c-paragraph">Microsoft תשלח לך הודעת דואר אלקטרוני לאישור וייתכן שתיצור איתך קשר לכבי בעיה זו כשתשלח את משוב זה. על-ידי לחיצה על שליחה, המשוב שלך ישמש לשיפור המוצרים והשירותים של Microsoft.</p>
+                <a class="c-hyperlink" href="https://go.microsoft.com/fwlink/?LinkId=521839">הצהרת פרטיות</a>
+            </div>
+        <div data-grid="col-12" class="x-type-left">
+            <button id="btnSubmitForm" type="button" name="submitbutton" class="c-button f-primary fix-submit" style="margin-top:40px; margin-bottom:40px" disabled="disabled">שלח</button>
+        </div>
+        <div data-grid="col-12">
+            <a class="c-hyperlink" href="https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview">שאלות נפוצות אודות אתר המשוב</a>
+        </div>
+    </section>
+</main>
+
+<main id="requestCreatedPanel" data-grid="col-12">
+    <header data-grid="col-12 pad-12x stack-4">
+        <h2 data-grid="col-12" class="c-heading-2">תודה על ששלחת משוב.</h2>
+    </header>
+    <section data-grid="col-12 pad-12x">
+        <div data-grid="col-12">
+            <a class="c-hyperlink" href="https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview">שאלות נפוצות אודות אתר המשוב</a>
+        </div>
+    </section>
+</main>
+
+<script type="text/javascript" src="./משוב ל- Microsoft_files/hipmgr.js.download"></script>
+
+<script>
+    var selectedLanguage = "עברית "
+    var selectedLanguageId = "13"
+    var SUSPECTED_BEHAVIORS = {
+        PHISHING: 1,
+        MALWARE: 2,
+        PUAA: 3,
+        EXPLOIT: 4
+    };
+
+    $(function () {
+        BindMwfControls();
+        PopulateErrorDictionary();
+
+        //default page view
+        $("#WebsiteUrlOrIP").focus();
+        $("#btnSubmitForm").attr("disabled", "disabled");
+
+            
+                $("#SOFBInput").hide();
+                $("#SOAdditionalPagesFrame").hide();
+            
+
+        // Load HIP
+        var hipSessionId = "404f6fb62c92457daadda5c6d9d5c39f";
+        HIPManager.initialize(hipSessionId, "fb");
+
+        // Button 'Submit' clicked
+        $('#btnSubmitForm').click(function (event) {
+
+            HideAllErrors();
+
+            if (isValidForm())
+            {
+                $("#btnSubmitForm").attr("disabled", "disabled");
+
+                // HIP
+                if (HIPManager.validate() === false)
+                {
+
+                    $("#btnSubmitForm").removeAttr("disabled");
+
+                    if (HIPManager.isVisual())
+                    {
+                        showErrorDisableSubmit("solutionMissingVisual");
+                    }
+                    else
+                    {
+                        showErrorDisableSubmit("solutionMissingAudio");
+                    }
+
+                    errorCount++;
+                }
+
+                var suspectedBehavior = [];
+                        suspectedBehavior.push(SUSPECTED_BEHAVIORS.MALWARE);
+
+                var postdata = buildPostdata(suspectedBehavior);
+                var ajaxRequest = buildAjaxRequest();
+                ajaxRequest.data = JSON.stringify(postdata);
+                ajaxRequest.contentType = "application/json";
+
+                // send the request
+                $.ajax(ajaxRequest);
+            }
+            else
+            {
+                ShowAllErrors();
+            }
+        });
+    });
+
+    function buildApiUrl() {
+        let hipData = HIPManager.getVerificationData();
+        var apiUrl = "/en-us/wdsi/api/report-feedback-site/" +
+            encodeURI(hipData.solution) + '/' +
+            encodeURIComponent(hipData.challengeId) + '/' +
+            hipData.type + '/' +
+            hipData.sessionId + '/' +
+            hipData.scenarioId;
+        return apiUrl;
+    }
+
+    function buildAjaxRequest(apiUrl) {
+        var apiUrl = buildApiUrl();
+        var ajaxRequest = {
+            url: apiUrl,
+            type: 'POST',
+            success: function (result) {
+                $("#urlSubmissionPanel").hide();
+                $("#requestCreatedPanel").show();
+            },
+            error: function (xhr, status, error) {
+                HIPManager.refresh();
+
+                if (xhr.status == 403)
+                {
+                    if (HIPManager.isVisual())
+                    {
+                        showErrorDisableSubmit("solutionInvalid");
+                    }
+                    else
+                    {
+                        showErrorDisableSubmit("solutionInvalidAudio");
+                    }
+                }
+                else
+                {
+                    ShowError("submissionFailed");
+                }
+
+                $("#btnSubmitForm").removeAttr("disabled");
+            },
+        }
+        return ajaxRequest;
+    }
+
+    function buildPostdata(suspectedBehavior) {
+        var postdata = buildSOFBSubmissionModel();
+        postdata.IsSafe = "True" === "True" || ($("input[name='UserRating']:checked").val() === "Safe");
+        postdata.Url = "https://0078f182ee.9a5cb35bf2.com/in/track?data=eyJ3bCI6MCwic3ViaWQiOjk0MjcyOTQ3MSwidXNlcl9pZCI6IjEzMzYxNTUzMjcxMDg2NDE2MDAwIiwidGltZXpvbmUiOi04LCJ2ZXIiOiIzLjI1LjEiLCJ0YWdfaWQiOjAsInNjcmVlbl9yZXNvbHV0aW9uIjoiMTUzNng4NjQiLCJhZGJsb2NrIjowLCJ0aW1lem9uZV9vbHNvbiI6IkFtZXJpY2EvTG9zX0FuZ2VsZXMiLCJ1dG1fc291cmNlIjoidGNwbyIsInV0bV9tZWRpdW0iOiIzMTQ1NSIsInV0bV9jYW1wYWlnbiI6Ijk0MjcyOTQ3MSIsInV0bV9jb250ZW50IjoiODUtIiwibW0iOjAsImluaXRfc3RhcnRfbGF0ZW5jeSI6MS45NiwiaXNfdjIiOjAsImlzX3YyX2VtcHR5IjowLCJ1c2VyX2tleXdvcmRzIjoiVmlkZW8lMkNQb3JubyUyQ0dyYXRpcyUyQ1ZpZGVvcyUyQ2RlJTJDU2V4byUyQ0dyYXRpcyUyQ34lMkNwb3JubC5jb20lMkNCZXN0JTJDYW5kJTJDMTAwJTI1JTJDRnJlZSUyQ1NleCUyQ1ZpZGVvcyUyQ1Bvcm5MJTJDSG90dGVzdCUyQ1Bvcm4lMkNTZWxlY3Rpb24uIn0=";
+        postdata.sessionGuid = "635172db-d4d5-45e1-a476-6d3511e4e8e3";
+        postdata.Language = selectedLanguage;
+        postdata.LanguageId = selectedLanguageId;
+        postdata.SuspectedBehavior = suspectedBehavior;
+        postdata.EncodedRequestModel = "{&quot;RequestVersion&quot;:&quot;6&quot;,&quot;RawUrl&quot;:&quot;aHR0cHM6Ly8wMDc4ZjE4MmVlLjlhNWNiMzViZjIuY29tL2luL3RyYWNrP2RhdGE9ZXlKM2JDSTZNQ3dpYzNWaWFXUWlPamswTWpjeU9UUTNNU3dpZFhObGNsOXBaQ0k2SWpFek16WXhOVFV6TWpjeE1EZzJOREUyTURBd0lpd2lkR2x0WlhwdmJtVWlPaTA0TENKMlpYSWlPaUl6TGpJMUxqRWlMQ0owWVdkZmFXUWlPakFzSW5OamNtVmxibDl5WlhOdmJIVjBhVzl1SWpvaU1UVXpObmc0TmpRaUxDSmhaR0pzYjJOcklqb3dMQ0owYVcxbGVtOXVaVjl2YkhOdmJpSTZJa0Z0WlhKcFkyRXZURzl6WDBGdVoyVnNaWE1pTENKMWRHMWZjMjkxY21ObElqb2lkR053YnlJc0luVjBiVjl0WldScGRXMGlPaUl6TVRRMU5TSXNJblYwYlY5allXMXdZV2xuYmlJNklqazBNamN5T1RRM01TSXNJblYwYlY5amIyNTBaVzUwSWpvaU9EVXRJaXdpYlcwaU9qQXNJbWx1YVhSZmMzUmhjblJmYkdGMFpXNWplU0k2TVM0NU5pd2lhWE5mZGpJaU9qQXNJbWx6WDNZeVgyVnRjSFI1SWpvd0xDSjFjMlZ5WDJ0bGVYZHZjbVJ6SWpvaVZtbGtaVzhsTWtOUWIzSnVieVV5UTBkeVlYUnBjeVV5UTFacFpHVnZjeVV5UTJSbEpUSkRVMlY0YnlVeVEwZHlZWFJwY3lVeVEzNGxNa053YjNKdWJDNWpiMjBsTWtOQ1pYTjBKVEpEWVc1a0pUSkRNVEF3SlRJMUpUSkRSbkpsWlNVeVExTmxlQ1V5UTFacFpHVnZjeVV5UTFCdmNtNU1KVEpEU0c5MGRHVnpkQ1V5UTFCdmNtNGxNa05UWld4bFkzUnBiMjR1SW4wPQ==&quot;,&quot;CanonTopUrl&quot;:null,&quot;Result&quot;:&quot;block&quot;,&quot;OsVersion&quot;:&quot;10.0.22621.1265.ni_release&quot;,&quot;IeVersion&quot;:null,&quot;CookieV2&quot;:null,&quot;FeedbackProductGuid&quot;:&quot;381ddd1e-e600-42de-94ed-8c34bf73f16d&quot;,&quot;PageRenderGuid&quot;:null,&quot;ProductSource&quot;:null,&quot;FilterVersion&quot;:&quot;1.2.2301.4&quot;,&quot;DatVersion&quot;:&quot;170540185939602997400506234197983529371&quot;,&quot;PhishConfidence&quot;:null,&quot;Region&quot;:&quot;179.35.23.XXX&quot;,&quot;AcceptLang&quot;:&quot;en-US&quot;,&quot;ClientResult&quot;:null,&quot;CanonBlockUrl&quot;:null,&quot;UrsResult&quot;:null,&quot;ClientId&quot;:null,&quot;ClientState&quot;:16,&quot;HostIp&quot;:&quot;45.133.44.24&quot;,&quot;UserChoice&quot;:null,&quot;DownloadBit&quot;:null,&quot;ReferrerUrl&quot;:null,&quot;FileHash&quot;:null,&quot;FileName&quot;:null,&quot;HasValidSignatureBit&quot;:null,&quot;SignerSubjectName&quot;:null,&quot;SignerCertHash&quot;:null,&quot;IssuerSubjectName&quot;:null,&quot;IssuerCertHash&quot;:null,&quot;DownloadRatingId&quot;:null,&quot;UrlType&quot;:null,&quot;Verb&quot;:null,&quot;SyncRequestId&quot;:null,&quot;ClientWatermark&quot;:null,&quot;UrlReputation&quot;:&quot;TSCM:100&quot;,&quot;DeviceId&quot;:null,&quot;UserId&quot;:null,&quot;RequestType&quot;:&quot;top&quot;,&quot;CuxId&quot;:null,&quot;Persona&quot;:null,&quot;CorrelationId&quot;:&quot;08c0425a-1f52-481f-92d5-688c1f1ad0b2&quot;,&quot;IsNP&quot;:null,&quot;RedirectChain&quot;:null,&quot;Screenshot&quot;:null,&quot;IsDownload&quot;:false,&quot;DownloadRating&quot;:null,&quot;RequestMethod&quot;:&quot;POST&quot;,&quot;ConnectingIp&quot;:&quot;179.35.23.168:53658&quot;,&quot;AdditionalInfo&quot;:{},&quot;ComputedState&quot;:16,&quot;IsSafe&quot;:true,&quot;PossibleThreatTypes&quot;:[1]}";
+        postdata.VNext = "False";
+
+        return postdata;
+    }
+
+    function buildSOFBSubmissionModel() {
+        var postdata = {};
+            
+            if ($("input[name='ReportSource']:checked").val() === "SOFB")
+            {
+                postdata.isSOFB = true;
+                postdata.SOName = $("#SOName").val();
+                postdata.SOEmail = $("#SOEmail").val();
+                postdata.SOFirm = $("#SOFirm").val();
+                postdata.SOAddress = $("#SOAddress").val();
+                postdata.SOHomePage = $("#SOHomePage").val();
+                postdata.SOPurpose = $("#SOPurpose").val();
+                postdata.SODispute = $("#SOOptionsYes").is(":checked") ? "Yes" : "No";
+                postdata.SOAdditionalPages = $("#SOAdditionalPages").val();
+                postdata.SOPii = $("#SOPii").val();
+                postdata.SOPiiReason = $("#SOPiiReason").val();
+                postdata.SOPrivacyUri = $("#SOPrivacyUri").val();
+                postdata.SORepro = $("#SORepro").val();
+                postdata.SOComments = $("#SOComments").val();
+            }
+            else
+            {
+                postdata.isSOFB = false;
+            }
+            
+        return postdata;
+    }
+
+    // Validate input
+    function isValidForm() {
+        var errorCount = 0;
+            
+                if (!$("input[name='ReportSource']:checked").val())
+                {
+                    errorCount += 1;
+
+                    ShowError("ReportSource");
+                    $("#ReportSourceEUFB").focus();
+                }
+            
+
+        // Language
+        errorCount += ValidateInput("comboLanguage");
+
+            
+                // SOFB
+                if ($("#ReportSourceSOFB").is(":checked"))
+                {
+                    errorCount += ValidateInput("SOName");
+                    errorCount += ValidateInput("SOEmail");
+                    errorCount += ValidateInput("SOFirm");
+                    errorCount += ValidateInput("SOAddress");
+                    errorCount += ValidateInput("SOHomePage");
+                    errorCount += ValidateInput("SOPurpose");
+
+                    if (!$("input[name='SOOptions']:checked").val())
+                    {
+                        errorCount += 1;
+
+                        ShowError("SOOptions");
+                        $("#SOOptionsYes").focus();
+                    }
+
+                    if ($("#SOOptionsYes").is(":checked"))
+                    {
+                        errorCount += ValidateInput("SOAdditionalPages");
+                    }
+
+                    errorCount += ValidateInput("SOPii");
+                    errorCount += ValidateInput("SOPiiReason");
+                    errorCount += ValidateInput("SOPrivacyUrl");
+                }
+            
+        return errorCount === 0;
+    }
+
+    function BindMwfControls() {
+        // Interact with filter select control
+        mwf.ComponentFactory.create([
+            {
+                c: mwf.Combo,
+                selector: '#formWebSiteLanguage',
+                callback: mwfLanguageComboInit
+            }
+        ]);
+    }
+
+    function mwfLanguageComboInit(results) {
+        if (results && results.length)
+        {
+            results[0].subscribe({
+                onSelectionChanged: mwfOnLanguageComboChanged
+            });
+        }
+    }
+
+    function mwfOnLanguageComboChanged(notification) {
+        selectedLanguage = notification.value;
+        selectedLanguageId = $("#" + notification.id).children("span").attr("languageid");
+        return false;
+    }
+
+    function onReportSourceChanged(selection) {
+        if (selection.value == "EUFB")
+        {
+            $("#SOFBInput").hide();
+        }
+        else
+        {
+            $("#SOFBInput").show();
+        }
+    }
+
+    function onSOOptionsChanged(selection) {
+        if (selection.value == "Yes")
+        {
+            $("#SOAdditionalPagesFrame").show();
+        }
+        else
+        {
+            $("#SOAdditionalPagesFrame").hide();
+        }
+    }
+
+    $("#WebsiteUrlOrIP").keyup(updateSubmitState);
+    HIPManager.addSolutionChangeEvent(updateSubmitState);
+
+    function updateSubmitState() {
+        HideAllErrors();
+        if ($("#WebsiteUrlOrIP").val() != '')
+        {
+            if (HIPManager.validate())
+            {
+                $("#btnSubmitForm").removeAttr("disabled");
+            }
+            else
+            {
+                $("#btnSubmitForm").attr("disabled", "disabled");
+            }
+        }
+        else
+        {
+            $("#btnSubmitForm").attr("disabled", "disabled");
+        }
+    }
+
+    function showErrorDisableSubmit(error) {
+        ShowError(error);
+        $("#btnSubmitForm").attr("disabled", "disabled");
+    }
+</script>
+
+
+
+    </main>
+
+        <div id="footerArea" class="uhf" data-m="{&quot;cN&quot;:&quot;footerArea&quot;,&quot;cT&quot;:&quot;Area_coreuiArea&quot;,&quot;id&quot;:&quot;a2Body&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;Body&quot;}">
+                <div id="footerRegion" data-region-key="footerregion" data-m="{&quot;cN&quot;:&quot;footerRegion&quot;,&quot;cT&quot;:&quot;Region_coreui-region&quot;,&quot;id&quot;:&quot;r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;a2&quot;}">
+
+    <div id="footerUniversalFooter" data-m="{&quot;cN&quot;:&quot;footerUniversalFooter&quot;,&quot;cT&quot;:&quot;Module_coreui-universalfooter&quot;,&quot;id&quot;:&quot;m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;r1a2&quot;}" data-module-id="Category|footerRegion|coreui-region|footerUniversalFooter|coreui-universalfooter">
+        
+
+
+
+<footer id="uhf-footer" class="c-uhff context-uhf" data-uhf-mscc-rq="false" data-footer-footprint="/MSSecurityPortal/MSSecurityPortalfooter, fromService: True" data-m="{&quot;cN&quot;:&quot;Uhf footer_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;m1r1a2&quot;}">
+        <nav class="c-uhff-nav" aria-label="קישורים למשאבים בכותרת תחתונה" data-m="{&quot;cN&quot;:&quot;Footer nav_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1m1r1a2&quot;}">
+            
+                <div class="c-uhff-nav-row">
+                    <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn1_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+                        <div class="c-heading-4" role="heading" aria-level="2">מה חדש
+</div>
+                        <ul class="c-list f-bare">
+                            <li>
+                                <a aria-label="Microsoft 365 מה חדש
+" class="c-uhff-link" href="https://www.microsoft.com/microsoft-365" data-m="{&quot;cN&quot;:&quot;Whatsnew_Microsoft365_nav&quot;,&quot;id&quot;:&quot;n1c1c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Microsoft 365</a>
+                            </li>
+                            <li>
+                                <a aria-label="אפליקציות של Windows 11‏ מה חדש
+" class="c-uhff-link" href="https://www.microsoft.com/windows/windows-11-apps" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_Windows_11_apps_nav&quot;,&quot;id&quot;:&quot;n2c1c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">אפליקציות של Windows 11‏</a>
+                            </li>
+
+                        </ul>
+                        
+                    </div>
+                    <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn2_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+                        <div class="c-heading-4" role="heading" aria-level="2">Microsoft Store
+</div>
+                        <ul class="c-list f-bare">
+                            <li>
+                                <a aria-label="פרופיל החשבון  Microsoft Store
+" class="c-uhff-link" href="https://account.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_AccountProfile_nav&quot;,&quot;id&quot;:&quot;n1c2c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">פרופיל החשבון </a>
+                            </li>
+                            <li>
+                                <a aria-label="מרכז ההורדות Microsoft Store
+" class="c-uhff-link" href="https://www.microsoft.com/he-il/download" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_DownloadCenter_nav&quot;,&quot;id&quot;:&quot;n2c2c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">מרכז ההורדות</a>
+                            </li>
+                            <li>
+                                <a aria-label="החזרות Microsoft Store
+" class="c-uhff-link" href="https://go.microsoft.com/fwlink/p/?LinkID=824764&amp;clcid=0x40D" data-m="{&quot;cN&quot;:&quot;MicrosoftStore_Returns_nav&quot;,&quot;id&quot;:&quot;n3c2c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">החזרות</a>
+                            </li>
+                            <li>
+                                <a aria-label="מעקב אחר הזמנות Microsoft Store
+" class="c-uhff-link" href="https://account.microsoft.com/orders" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_OrderTracking_nav&quot;,&quot;id&quot;:&quot;n4c2c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">מעקב אחר הזמנות</a>
+                            </li>
+
+                        </ul>
+                        
+                    </div>
+                    <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn3_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+                        <div class="c-heading-4" role="heading" aria-level="2">חינוך</div>
+                        <ul class="c-list f-bare">
+                            <li>
+                                <a aria-label="Microsoft Education חינוך" class="c-uhff-link" href="https://www.microsoft.com/education" data-m="{&quot;cN&quot;:&quot;Footer_Education_MicrosoftInEducation_nav&quot;,&quot;id&quot;:&quot;n1c3c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Microsoft Education</a>
+                            </li>
+                            <li>
+                                <a aria-label="מכשירים לחינוך חינוך" class="c-uhff-link" href="https://www.microsoft.com/education/devices/overview" data-m="{&quot;cN&quot;:&quot;Footer_Education_DevicesforEducation_nav&quot;,&quot;id&quot;:&quot;n2c3c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">מכשירים לחינוך</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft Teams בתחום החינוך חינוך" class="c-uhff-link" href="https://www.microsoft.com/education/products/teams" data-m="{&quot;cN&quot;:&quot;Footer_Education_MicrosoftTeamsforEducation_nav&quot;,&quot;id&quot;:&quot;n3c3c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Microsoft Teams בתחום החינוך</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft 365 Education חינוך" class="c-uhff-link" href="https://www.microsoft.com/education/buy-license/microsoft365" data-m="{&quot;cN&quot;:&quot;Footer_Education_Microsoft365Education_nav&quot;,&quot;id&quot;:&quot;n4c3c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Microsoft 365 Education</a>
+                            </li>
+                            <li>
+                                <a aria-label="Office Education חינוך" class="c-uhff-link" href="https://www.microsoft.com/education/products/office" data-m="{&quot;cN&quot;:&quot;Footer_Education_Office Education_nav&quot;,&quot;id&quot;:&quot;n5c3c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Office Education</a>
+                            </li>
+                            <li>
+                                <a aria-label="הדרכות ופיתוח למחנכים חינוך" class="c-uhff-link" href="https://education.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Education_EducatorTrainingDevelopment_nav&quot;,&quot;id&quot;:&quot;n6c3c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">הדרכות ופיתוח למחנכים</a>
+                            </li>
+                            <li>
+                                <a aria-label="מבצעים לתלמידים ולהורים חינוך" class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/education" data-m="{&quot;cN&quot;:&quot;Footer_Education_DealsForStudentsandParents_nav&quot;,&quot;id&quot;:&quot;n7c3c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">מבצעים לתלמידים ולהורים</a>
+                            </li>
+                            <li>
+                                <a aria-label="Azure לסטודנטים חינוך" class="c-uhff-link" href="https://azure.microsoft.com/free/students/" data-m="{&quot;cN&quot;:&quot;Footer_Azureforstudents_nav&quot;,&quot;id&quot;:&quot;n8c3c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Azure לסטודנטים</a>
+                            </li>
+
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="c-uhff-nav-row">
+                    <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn4_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+                        <div class="c-heading-4" role="heading" aria-level="2">עסק</div>
+                        <ul class="c-list f-bare">
+                            <li>
+                                <a aria-label="הענן של Microsoft‬ עסק" class="c-uhff-link" href="https://www.microsoft.com/microsoft-cloud" data-m="{&quot;cN&quot;:&quot;Footer_Business_Microsoft_Cloud_nav&quot;,&quot;id&quot;:&quot;n1c4c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">הענן של Microsoft‬</a>
+                            </li>
+                            <li>
+                                <a aria-label="האבטחה של Microsoft עסק" class="c-uhff-link" href="https://www.microsoft.com/security" data-m="{&quot;cN&quot;:&quot;Footer_Business_Microsoft Security_nav&quot;,&quot;id&quot;:&quot;n2c4c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">האבטחה של Microsoft</a>
+                            </li>
+                            <li>
+                                <a aria-label="Azure עסק" class="c-uhff-link" href="https://azure.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_MicrosoftAzure_nav&quot;,&quot;id&quot;:&quot;n3c4c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Azure</a>
+                            </li>
+                            <li>
+                                <a aria-label="Dynamics 365 עסק" class="c-uhff-link" href="https://dynamics.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Business_MicrosoftDynamics365_nav&quot;,&quot;id&quot;:&quot;n4c4c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Dynamics 365</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft 365 עסק" class="c-uhff-link" href="https://www.microsoft.com/microsoft-365/business/" data-m="{&quot;cN&quot;:&quot;More_Business_Microsoft365_nav&quot;,&quot;id&quot;:&quot;n5c4c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Microsoft 365</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft Advertising עסק" class="c-uhff-link" href="https://about.ads.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_MicrosoftAdvertising_nav&quot;,&quot;id&quot;:&quot;n6c4c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Microsoft Advertising</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft Industry עסק" class="c-uhff-link" href="https://www.microsoft.com/industry" data-m="{&quot;cN&quot;:&quot;Footer_Business_MicrosoftIndustry_nav&quot;,&quot;id&quot;:&quot;n7c4c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Microsoft Industry</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft Teams עסק" class="c-uhff-link" href="https://www.microsoft.com/microsoft-teams/group-chat-software" data-m="{&quot;cN&quot;:&quot;Footer_Business_Microsoft365_nav&quot;,&quot;id&quot;:&quot;n8c4c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Microsoft Teams</a>
+                            </li>
+
+                        </ul>
+                        
+                    </div>
+                    <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn5_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+                        <div class="c-heading-4" role="heading" aria-level="2">מפתח ו-IT
+</div>
+                        <ul class="c-list f-bare">
+                            <li>
+                                <a aria-label="מרכז מפתחים מפתח ו-IT
+" class="c-uhff-link" href="https://developer.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Developer_DeveloperCenter_nav&quot;,&quot;id&quot;:&quot;n1c5c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">מרכז מפתחים</a>
+                            </li>
+                            <li>
+                                <a aria-label="תיעוד מפתח ו-IT
+" class="c-uhff-link" href="https://learn.microsoft.com/docs/" data-m="{&quot;cN&quot;:&quot;Footer_DeveloperAndIT_Documentation_nav&quot;,&quot;id&quot;:&quot;n2c5c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">תיעוד</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft Learn מפתח ו-IT
+" class="c-uhff-link" href="https://learn.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_DeveloperAndIT_MicrosoftLearn_nav&quot;,&quot;id&quot;:&quot;n3c5c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Microsoft Learn</a>
+                            </li>
+                            <li>
+                                <a aria-label="קהילת Microsoft Tech מפתח ו-IT
+" class="c-uhff-link" href="https://techcommunity.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_DeveloperAndIT_MicrosoftTechCommunity_nav&quot;,&quot;id&quot;:&quot;n4c5c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">קהילת Microsoft Tech</a>
+                            </li>
+                            <li>
+                                <a aria-label="Azure Marketplace מפתח ו-IT
+" class="c-uhff-link" href="https://azuremarketplace.microsoft.com/" data-m="{&quot;cN&quot;:&quot;More_DeveloperAndIT_AzureMarketplace_nav&quot;,&quot;id&quot;:&quot;n5c5c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Azure Marketplace</a>
+                            </li>
+                            <li>
+                                <a aria-label="AppSource מפתח ו-IT
+" class="c-uhff-link" href="https://appsource.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_DeveloperAndIT_AppSource_nav&quot;,&quot;id&quot;:&quot;n6c5c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">AppSource</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft Power Platform מפתח ו-IT
+" class="c-uhff-link" href="https://powerplatform.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_DeveloperAndIT_Power Platform_nav&quot;,&quot;id&quot;:&quot;n7c5c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Microsoft Power Platform</a>
+                            </li>
+                            <li>
+                                <a aria-label="Visual Studio מפתח ו-IT
+" class="c-uhff-link" href="https://visualstudio.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Developer_MicrosoftVisualStudio_nav&quot;,&quot;id&quot;:&quot;n8c5c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Visual Studio</a>
+                            </li>
+
+                        </ul>
+                        
+                    </div>
+                    <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn6_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+                        <div class="c-heading-4" role="heading" aria-level="2">חברה
+</div>
+                        <ul class="c-list f-bare">
+                            <li>
+                                <a aria-label="קריירה חברה
+" class="c-uhff-link" href="https://careers.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Company_Careers_nav&quot;,&quot;id&quot;:&quot;n1c6c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">קריירה</a>
+                            </li>
+                            <li>
+                                <a aria-label="אודות Microsoft חברה
+" class="c-uhff-link" href="https://www.microsoft.com/he-il/about" data-m="{&quot;cN&quot;:&quot;Footer_Company_AboutMicrosoft_nav&quot;,&quot;id&quot;:&quot;n2c6c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">אודות Microsoft</a>
+                            </li>
+                            <li>
+                                <a aria-label="פרטיות ב-Microsoft חברה
+" class="c-uhff-link" href="https://privacy.microsoft.com/he-il" data-m="{&quot;cN&quot;:&quot;Footer_Company_PrivacyAtMicrosoft_nav&quot;,&quot;id&quot;:&quot;n3c6c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">פרטיות ב-Microsoft</a>
+                            </li>
+                            <li>
+                                <a aria-label="משקיעים חברה
+" class="c-uhff-link" href="https://www.microsoft.com/investor/default.aspx" data-m="{&quot;cN&quot;:&quot;Footer_Company_Investors_nav&quot;,&quot;id&quot;:&quot;n4c6c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">משקיעים</a>
+                            </li>
+                            <li>
+                                <a aria-label="קיימות חברה
+" class="c-uhff-link" href="https://www.microsoft.com/sustainability/" data-m="{&quot;cN&quot;:&quot;Footer_Company_Sustainability_nav&quot;,&quot;id&quot;:&quot;n5c6c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">קיימות</a>
+                            </li>
+
+                        </ul>
+                        
+                    </div>
+                </div>
+        </nav>
+    <div class="c-uhff-base">
+                <a id="locale-picker-link" aria-label="בורר שפת התוכן. כרגע מוגדרת השפה עברית (ישראל)" class="c-uhff-link c-uhff-lang-selector c-glyph glyph-world" href="https://www.microsoft.com/en-us/locale.aspx" data-m="{&quot;cN&quot;:&quot;locale_picker(IL)_nav&quot;,&quot;id&quot;:&quot;n7c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">עברית (ישראל)</a>
+
+            <a data-m="{&quot;id&quot;:&quot;n8c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}" href="https://aka.ms/yourcaliforniaprivacychoices" class="c-uhff-link c-uhff-ccpa">
+        <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" xml:space="preserve" height="16" width="43">
+            <title>סמל ביטול הצטרפות לצרכנים בקליפורניה (CCPA)</title>
+            <path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"></path>
+            <path d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"></path>
+            <path d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z" style="fill:#fff"></path>
+            <path d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z" style="fill:#06f"></path>
+        </svg>
+        <span>אפשרויות הפרטיות שלך בקליפורניה</span>
+    </a>
+
+        <noscript>
+                <a data-m='{"id":"n9c1c1m1r1a2","sN":9,"aN":"c1c1m1r1a2"}' href="https://aka.ms/yourcaliforniaprivacychoices" class='c-uhff-link c-uhff-ccpa '>
+        <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" xml:space="preserve" height="16" width="43">
+            <title>סמל ביטול הצטרפות לצרכנים בקליפורניה (CCPA)</title>
+            <path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"/>
+            <path d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"/>
+            <path d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z" style="fill:#fff"/>
+            <path d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z" style="fill:#06f"/>
+        </svg>
+        <span>אפשרויות הפרטיות שלך בקליפורניה</span>
+    </a>
+
+        </noscript>
+        <nav aria-label="קישורי החברה של Microsoft">
+            <ul class="c-list f-bare" data-m="{&quot;cN&quot;:&quot;Corp links_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c10c1c1m1r1a2&quot;,&quot;sN&quot;:10,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+                                <li id="c-uhff-footer_contactus">
+                    <a class="c-uhff-link" href="https://support.microsoft.com/contactus" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_ContactUs_nav&quot;,&quot;id&quot;:&quot;n1c10c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c10c1c1m1r1a2&quot;}">צור קשר עם Microsoft</a>
+                </li>
+                <li id="c-uhff-footer_privacyandcookies">
+                    <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_PrivacyandCookies_nav&quot;,&quot;id&quot;:&quot;n2c10c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c10c1c1m1r1a2&quot;}">פרטיות</a>
+                </li>
+                <li class=" x-hidden" id="c-uhff-footer_managecookies">
+                    <a class="c-uhff-link" href="https://feedback.smartscreen.microsoft.com/feedback.aspx#" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_ManageCookies_nav&quot;,&quot;id&quot;:&quot;n3c10c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c10c1c1m1r1a2&quot;}">ניהול קבצי Cookie</a>
+                </li>
+                <li id="c-uhff-footer_termsofuse">
+                    <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkID=206977" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_TermsOfUse_nav&quot;,&quot;id&quot;:&quot;n4c10c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c10c1c1m1r1a2&quot;}">תנאי השימוש</a>
+                </li>
+                <li id="c-uhff-footer_trademarks">
+                    <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?linkid=2196228" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_Trademarks_nav&quot;,&quot;id&quot;:&quot;n5c10c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c10c1c1m1r1a2&quot;}">סימנים מסחריים</a>
+                </li>
+                <li id="c-uhff-footer_aboutourads">
+                    <a class="c-uhff-link" href="https://choice.microsoft.com/" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_AboutourAds_nav&quot;,&quot;id&quot;:&quot;n6c10c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c10c1c1m1r1a2&quot;}">אודות הפרסומות שלנו</a>
+                </li>
+                <li id="c-uhff-accessibility compliance link">
+                    <a class="c-uhff-link" href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4F3EG" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Accessibility Compliance link_nav&quot;,&quot;id&quot;:&quot;n7c10c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c10c1c1m1r1a2&quot;}">נגישות</a>
+                </li>
+
+                <li>© Microsoft 2023</li>
+                
+            </ul>
+        </nav>
+    </div>
+    
+</footer>
+
+<script id="uhf-footer-ccpa">
+    var ccpaElement = document.querySelector('.c-uhff-ccpa');
+
+    try {
+        var resolvedTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+        var timeZones = ['America/Los_Angeles', 'US/Pacific'];
+        var showLink = timeZones.find(function (zone) {
+            return resolvedTimeZone === zone;
+        });
+
+        if (showLink) {
+            ccpaElement.classList.remove('x-hidden');
+        }
+    } catch {
+        ccpaElement.classList.remove('x-hidden');
+    }
+</script>
+
+
+
+
+
+    </div>
+        </div>
+
+    </div>
+
+
+        <span id="buildTag" style="display:none">Debug Version = 1.0.0.0;</span>
+
+<div class="c-dialog f-flow" id="pfDialogFeedback" aria-hidden="true">
+        <div role="presentation" tabindex="-1"></div>
+        <div id="pfDialogFeedbackInner" role="dialog" aria-label="Provide feedback" tabindex="-1">
+            <button id="pfCloseDialog" class="c-glyph glyph-cancel" data-js-dialog-hide="" aria-label="Close dialog" tabindex="0"></button>
+            <div role="document">
+                <p class="c-paragraph">Send us feedback</p>
+                <fieldset id="pfFieldsetEmotions" class="c-radio f-inline">
+                    <div>
+                        <div role="radiogroup">
+                            <label class="c-label">
+                                <input role="radio" type="radio" id="pfButtonFeedbackEmotion1" name="buttonFeedbackEmotion" data-toggle="tooltip" value="1" checked="checked">
+                                <img class="c-image" src="./משוב ל- Microsoft_files/30x30_happy.png" title="I love this">
+                            </label>
+                            <label class="c-label">
+                                <input role="radio" type="radio" id="pfButtonFeedbackEmotion2" name="buttonFeedbackEmotion" data-toggle="tooltip" value="0">
+                                <img class="c-image" src="./משוב ל- Microsoft_files/30x30_sad.png" title="Could be improved">
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="c-textarea">
+                    <label id="pfLabelExperience" class="c-label" for="pfTextareaExperience">Tell us about your experience</label>
+                    <textarea id="pfTextareaExperience" name="textareaExperience" rows="4" maxlength="1024" aria-label="Tell us about your experience"></textarea>
+                </div>
+                <button type="submit" id="pfButtonFeedbackSubmit" class="c-button">Submit feedback</button>
+                <div id="pfThankyou" role="alert" aria-atomic="false">Thank you for your feedback</div>
+            </div>
+        </div>
+    </div></body></html>
