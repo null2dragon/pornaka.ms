@@ -1,0 +1,28 @@
+[Module]
+ModuleName=EMRPE00I.IMZ
+ModuleThis=EMRPE00I.CRI
+ModuleType=File
+OS=WIN1032,WIN1064,WIN732,WIN764,WIN832,WIN864
+Password=lenovo
+PreloadType=CPP
+DateCreated=12/10/2020
+RDMS_ID=SH
+RDMS_NAME=SPMS
+Type=OS
+Family=OS
+AppLang=AR,BG,BR,CR,CS,CT,CZ,DK,ET,FI,FR,GL,GK,GR,HB,HK,HU,IT,JP,KR,KZ,LT,LV,NL,NO,PL,PO,RO,RU,SK,SL,SP,SR,SV,TH,TR,UR,US
+Description=Digital Download WinPE Module
+Version=V.I
+RecoveryCD=YES
+RNR=Extract
+HIITModule=
+MLPS=
+MLPSCC=
+ModuleSize=
+[Module End]
+[Install]
+stdout=7z.exe x -y -p!E(%Password%) !F(%ModuleName%) -o%target%\
+[Install End]
+[Verify Install]
+stdout=mverify.exe /C=!F(%ModuleThis%) /T=%target%\ /E
+[Verify Install End]
